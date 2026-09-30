@@ -3,7 +3,7 @@ name = "artemis-core"
 version = "0.1.0"
 edition = "2021"
 description = "Rust port of the Apache ActiveMQ Artemis CORE wire protocol and client, including local and XA transactions"
-license = "Apache-2.0"
+license = "Unlicense"
 readme = "README.md"
 
 [dependencies]

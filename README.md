@@ -113,3 +113,8 @@ xid        := int32 formatId, int32 bqLen, bq, int32 gtxLen, gtx
 
 Blocking requests get a negative, decreasing correlation id per channel (`ChannelImpl`);
 responses are matched on type and correlation id, and `EXCEPTION` always terminates the call.
+
+## License
+
+Released into the public domain under [The Unlicense](LICENSE). The port is derived from
+Apache ActiveMQ Artemis (Apache License 2.0); see `NOTICE` for the required attribution.
